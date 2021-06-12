@@ -2,7 +2,9 @@
 @extends('layout.principal')
 
 @section('conteudo-principal')
-
+    <h5 style="width:100%;text-align: center">
+        {{$subtitulo}}
+    </h5>
 <div style="display:flex; justify-content: space-evenly ;flex-wrap: wrap;">
         @foreach ($pokemons as $pokemon)
             <div style="cursor: pointer;">

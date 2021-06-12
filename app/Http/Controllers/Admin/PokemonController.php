@@ -9,7 +9,7 @@ class PokemonController extends Controller
 {
     public function pokemons()
     {
-        $titulo = 'Loja de Pokemons';
+        $subtitulo = 'Preço dos Pokemons';
         $pokemons = array(
             array("Bulbasaur", 'Planta', 550.00, 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png'),
             array("Charmander", 'Fogo', 550.00, 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png'),
@@ -18,6 +18,6 @@ class PokemonController extends Controller
         );
 
 
-        return view('pokemon.pokemons', compact('titulo', 'pokemons'));
+        return view('pokemon.pokemons', compact('subtitulo', 'pokemons'));
     }
 }
