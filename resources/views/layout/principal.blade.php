@@ -12,7 +12,7 @@
 
 <body>
     <nav class="teal">
-        <a href="#" class="brand-logo center ">Loja de Pokemons</a>
+        <a href="#" class="brand-logo center ">Loja de Pokemons!</a>
 
     </nav>
     <div class="container">
